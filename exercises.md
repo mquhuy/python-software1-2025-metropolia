@@ -180,9 +180,15 @@ Some users have faced surprising problems with the latest driver version 8.0.30.
 
 Write a program that asks the user to enter the ICAO code of an airport. The program fetches and prints out the corresponding airport name and location (town) from the airport database used on this course. The ICAO codes are stored in the ident column of the airport table.
 
+**Answer:** [Ex8.1](8-Using-relational-databases/Ex8_1.py)
+
 Write a program that asks the user to enter the area code (for example FI) and prints out the airports located in that country ordered by airport type. For example, Finland has 65 small airports, 15 helicopter airports and so on.
 
+**Answer:** [Ex8.2](8-Using-relational-databases/Ex8_2.py)
+
 Write a program that asks the user to enter the ICAO codes of two airports. The program prints out the distance between the two airports in kilometers. The calculation is based on the airport coordinates fetched from the database. Calculate the distance using the geopy library: https://geopy.readthedocs.io/en/stable/. Install the library by selecting View / Tool Windows / Python Packages in your PyCharm IDE, write geopy into the search field and finish the installation.
+
+**Answer:** [Ex8.3](8-Using-relational-databases/Ex8_3.py)
 
 9. Fundamentals of object-oriented programming
 Write a Car class that has the following properties: registration number, maximum speed, current speed and travelled distance. Add a class initializer that sets the first two of the properties based on parameter values. The current speed and travelled distance of a new car must be automatically set to zero. Write a main program where you create a new car (registration number ABC-123, maximum speed 142 km/h). Finally, print out all the properties of the new car.

@@ -1,0 +1,5 @@
+geographiclib==2.1
+geopy==2.4.1
+mysql==0.0.3
+mysql-connector==2.2.9
+mysqlclient==2.2.7
